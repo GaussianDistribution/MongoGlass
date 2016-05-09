@@ -104,7 +104,8 @@ sharding to 1 minutes and a half.
 
 You will also find a simple 'dataset.json' file where there are some model design mistakes.                                                             
 You can import it in mongoDB from prompt using (if you have set mongodb system variable, otherwise run command from "Z:\path\to\MongoDB\bin"):           
-                > mongoimport --db <dbName> --collection <collName> --file "Z:\path\to\file\example.json"                                                                     
+    
+    > mongoimport --db <dbName> --collection <collName> --file "Z:\path\to\file\example.json"                                                                     
 
 Then you can see how MongoGlass works:                                                                                                                  
 
